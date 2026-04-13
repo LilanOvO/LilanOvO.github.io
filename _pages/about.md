@@ -63,6 +63,9 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
     <a href="https://github.com/ZJU-LLM-Safety/MAJIC-AAAI2026">
       <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
     </a>
+    <a href="https://underline.io/lecture/142666-majic-markovian-adaptive-jailbreaking-via-iterative-composition-of-diverse-innovative-strategies">
+      <img src="https://img.shields.io/badge/Poster-Underline-0ea5e9.svg" alt="Poster">
+    </a>
   </div>
 </div>
 
