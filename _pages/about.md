@@ -44,7 +44,7 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 ## Accepted & Published
 <div class="pub-item">
   <div class="pub-title"><a href="https://arxiv.org/abs/2607.15081">DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment</a></div>
-  <div class="pub-authors">Zefeng Wu, <strong>Weiwei Qi</strong>, Jielong Chen, Tianhang Zheng, Di Hong, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
+  <div class="pub-authors">Zefeng Wu*, <strong>Weiwei Qi*</strong>, Jielong Chen, Tianhang Zheng, Di Hong, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
   <div class="pub-meta">EMNLP 2026 Main (CCF-B/THU-A)</div>
   <div class="pub-links">
     <a href="https://arxiv.org/abs/2607.15081">
@@ -58,7 +58,7 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 
 <div class="pub-item">
   <div class="pub-title"><a href="https://arxiv.org/abs/2604.08297v1">Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models</a></div>
-  <div class="pub-authors"><strong>Weiwei Qi</strong>, Zefeng Wu, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren</div>
+  <div class="pub-authors"><strong>Weiwei Qi*</strong>, Zefeng Wu*, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren</div>
   <div class="pub-meta">ACL 2026 Findings (CCF-A)</div>
   <div class="pub-links">
     <a href="https://arxiv.org/abs/2604.08297v1">
