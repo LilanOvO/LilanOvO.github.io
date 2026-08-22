@@ -82,15 +82,10 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 <span class='anchor' id='projects'></span>
 # 🛠️ Projects
 {% for project in cv.projects %}
-- **{{ project.period }}**: **{{ project.title }}** is {{ project.homepage_detail }}
-  <a href="{{ project.url }}">
-    <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
-  </a>
-  {% if project.stars_url %}
-  <a href="{{ project.stars_url }}">
-    <img src="https://img.shields.io/github/stars/{{ project.stars_url | remove: 'https://github.com/' }}?style=social" alt="GitHub stars">
-  </a>
-  {% endif %}
+<div class="project-entry">
+  <strong>{{ project.period }}</strong>: <strong>{{ project.title }}</strong> is {{ project.homepage_detail }}
+  <span class="project-links"><a href="{{ project.url }}"><img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code"></a>{% if project.stars_url %}<a href="{{ project.stars_url }}"><img src="https://img.shields.io/github/stars/{{ project.stars_url | remove: 'https://github.com/' }}?style=social" alt="GitHub stars"></a>{% endif %}</span>
+</div>
 {% endfor %}
 
 <span class='anchor' id='awards'></span>

@@ -195,6 +195,26 @@ h1:before, .anchor:before {
     }
 }
 
+.project-entry {
+    margin: .8rem 0 1rem;
+    color: #3b4658;
+    font-size: 1.04em;
+    line-height: 1.55;
+}
+
+.project-links {
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+    margin-left: .3rem;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    img {
+        display: block;
+    }
+}
+
 .page__content h1 {
     font-size: 1.95em;
 }
