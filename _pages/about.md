@@ -41,6 +41,7 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 
 <span class='anchor' id='publications'></span>
 # 📝 Publications
+## Accepted & Published
 <div class="pub-item pub-item--featured">
   <div class="pub-kicker">Latest publication</div>
   <div class="pub-title"><a href="https://arxiv.org/abs/2607.15081">DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment</a></div>
@@ -51,31 +52,6 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
       <img src="https://img.shields.io/badge/arXiv-2607.15081-b31b1b.svg" alt="arXiv">
     </a>
     <a href="https://github.com/ZJU-LLM-Safety/DataShield">
-      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
-    </a>
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2607.19829">DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection</a></div>
-  <div class="pub-authors"><strong>Weiwei Qi</strong>, Zefeng Wu, Zhilin Guo, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta">arXiv 2026 | First Author</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2607.19829">
-      <img src="https://img.shields.io/badge/arXiv-2607.19829-b31b1b.svg" alt="arXiv">
-    </a>
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2605.30883">TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking</a></div>
-  <div class="pub-authors">Churui Zeng, <strong>Weiwei Qi</strong>, Kedong Xiu, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta">arXiv 2026 | Co-author</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2605.30883">
-      <img src="https://img.shields.io/badge/arXiv-2605.30883-b31b1b.svg" alt="arXiv">
-    </a>
-    <a href="https://github.com/ZJU-LLM-Safety/TRACE">
       <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
     </a>
   </div>
@@ -119,6 +95,32 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
   <div class="pub-links">
     <a href="https://doi.org/10.1109/Trustcom66490.2025.00079">
       <img src="https://img.shields.io/badge/DOI-10.1109%2FTrustcom66490.2025.00079-0b6e4f.svg" alt="DOI">
+    </a>
+  </div>
+</div>
+
+## Preprints
+<div class="pub-item">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2607.19829">DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection</a></div>
+  <div class="pub-authors"><strong>Weiwei Qi</strong>, Zefeng Wu, Zhilin Guo, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
+  <div class="pub-meta">arXiv 2026 | First Author</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2607.19829">
+      <img src="https://img.shields.io/badge/arXiv-2607.19829-b31b1b.svg" alt="arXiv">
+    </a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2605.30883">TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking</a></div>
+  <div class="pub-authors">Churui Zeng, <strong>Weiwei Qi</strong>, Kedong Xiu, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
+  <div class="pub-meta">arXiv 2026 | Co-author</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2605.30883">
+      <img src="https://img.shields.io/badge/arXiv-2605.30883-b31b1b.svg" alt="arXiv">
+    </a>
+    <a href="https://github.com/ZJU-LLM-Safety/TRACE">
+      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
     </a>
   </div>
 </div>
