@@ -90,7 +90,7 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 <div class="pub-item">
   <div class="pub-title"><a href="https://doi.org/10.1109/Trustcom66490.2025.00079">CVshield: Interpretable Black-Box Adversarial Defense for LLMs via CoT Guided Semantic Verification</a></div>
   <div class="pub-authors">Wenjing Hu, <strong>Weiwei Qi</strong>, Yanlu Li, Xinzhe Huang</div>
-  <div class="pub-meta">IEEE TrustCom 2025 | Co-author</div>
+  <div class="pub-meta">IEEE TrustCom 2025</div>
   <div class="pub-links">
     <a href="https://doi.org/10.1109/Trustcom66490.2025.00079">
       <img src="https://img.shields.io/badge/DOI-10.1109%2FTrustcom66490.2025.00079-0b6e4f.svg" alt="DOI">
@@ -113,7 +113,7 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 <div class="pub-item">
   <div class="pub-title"><a href="https://arxiv.org/abs/2605.30883">TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking</a></div>
   <div class="pub-authors">Churui Zeng, <strong>Weiwei Qi</strong>, Kedong Xiu, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta">arXiv 2026 | Co-author</div>
+  <div class="pub-meta">arXiv 2026</div>
   <div class="pub-links">
     <a href="https://arxiv.org/abs/2605.30883">
       <img src="https://img.shields.io/badge/arXiv-2605.30883-b31b1b.svg" alt="arXiv">
