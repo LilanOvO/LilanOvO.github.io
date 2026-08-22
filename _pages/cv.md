@@ -76,5 +76,4 @@ author_profile: false
     </ul>
   </section>
 
-  <button class="resume-print" type="button" onclick="window.print()"><i class="fas fa-print" aria-hidden="true"></i> 打印 / 保存为 PDF</button>
 </div>

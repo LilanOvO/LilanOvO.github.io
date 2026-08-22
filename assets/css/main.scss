@@ -596,24 +596,6 @@ h1:before, .anchor:before {
     }
 }
 
-.resume-print {
-    display: block;
-    margin: 1.8rem 0 0 auto;
-    padding: .42rem .7rem;
-    border: 1px solid #8ea4c6;
-    border-radius: 4px;
-    background: #fff;
-    color: #2d5ca4;
-    cursor: pointer;
-    font-size: .9em;
-
-    &:hover,
-    &:focus {
-        border-color: #2d5ca4;
-        background: #f4f7fc;
-    }
-}
-
 @media (max-width: 680px) {
     .resume-header {
         min-height: 0;
@@ -672,7 +654,4 @@ h1:before, .anchor:before {
         line-height: 1.55;
     }
 
-    .resume-print {
-        display: none;
-    }
 }
