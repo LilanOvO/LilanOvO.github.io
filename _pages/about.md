@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+{% assign cv = site.data.cv %}
+
 <span class='anchor' id='about-me'></span>
 
 I am **Weiwei Qi (齐巍巍)**, a second-year PhD student in Cyberspace Security at Zhejiang University, advised by
@@ -27,7 +29,7 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 </div>
 
 <div class="section-note">
-  <a href="/files/Weiwei_Qi_CV_2026.pdf">CV</a> |
+  <a href="/cv/">CV</a> |
   <a href="https://scholar.google.com/citations?user=KacN-IMAAAAJ&hl=en">Google Scholar</a>
 </div>
 
@@ -42,115 +44,57 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 <span class='anchor' id='publications'></span>
 # 📝 Publications
 ## Accepted & Published
+{% assign accepted_publications = site.data.cv.publications | where: "status", "accepted" %}
+{% for publication in accepted_publications %}
 <div class="pub-item">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2607.15081">DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment</a></div>
-  <div class="pub-authors">Zefeng Wu*, <strong>Weiwei Qi*</strong>, Jielong Chen, Tianhang Zheng, Di Hong, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta">EMNLP 2026 Main (CCF-B/THU-A)</div>
+  <div class="pub-title"><a href="{{ publication.paper_url }}">{{ publication.title }}</a></div>
+  <div class="pub-authors">{{ publication.authors }}</div>
+  <div class="pub-meta">{{ publication.venue }}</div>
   <div class="pub-links">
-    <a href="https://arxiv.org/abs/2607.15081">
-      <img src="https://img.shields.io/badge/arXiv-2607.15081-b31b1b.svg" alt="arXiv">
-    </a>
-    <a href="https://github.com/ZJU-LLM-Safety/DataShield">
-      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
-    </a>
+    {% for resource in publication.resources %}
+    <a href="{{ resource.url }}"><img src="{{ resource.badge }}" alt="{{ resource.label }}"></a>
+    {% endfor %}
   </div>
 </div>
-
-<div class="pub-item">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2604.08297v1">Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models</a></div>
-  <div class="pub-authors"><strong>Weiwei Qi*</strong>, Zefeng Wu*, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta">ACL 2026 Findings (CCF-A)</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2604.08297v1">
-      <img src="https://img.shields.io/badge/arXiv-2604.08297-b31b1b.svg" alt="arXiv">
-    </a>
-    <a href="https://github.com/ZJU-LLM-Safety/SafeWeights-ACL">
-      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
-    </a>
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2508.13048">MAJIC: Markovian Adaptive Jailbreaking via Iterative Composition of Diverse Innovative Strategies</a></div>
-  <div class="pub-authors"><strong>Weiwei Qi</strong>, Shuo Shao, Wei Gu, Tianhang Zheng, Puning Zhao, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta">AAAI 2026 (CCF-A)</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2508.13048">
-      <img src="https://img.shields.io/badge/arXiv-2508.13048-b31b1b.svg" alt="arXiv">
-    </a>
-    <a href="https://github.com/ZJU-LLM-Safety/MAJIC-AAAI2026">
-      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
-    </a>
-    <a href="https://underline.io/lecture/142666-majic-markovian-adaptive-jailbreaking-via-iterative-composition-of-diverse-innovative-strategies">
-      <img src="https://img.shields.io/badge/Poster-Underline-0ea5e9.svg" alt="Poster">
-    </a>
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title"><a href="https://doi.org/10.1109/Trustcom66490.2025.00079">CVshield: Interpretable Black-Box Adversarial Defense for LLMs via CoT Guided Semantic Verification</a></div>
-  <div class="pub-authors">Wenjing Hu, <strong>Weiwei Qi</strong>, Yanlu Li, Xinzhe Huang</div>
-  <div class="pub-meta">IEEE TrustCom 2025</div>
-  <div class="pub-links">
-    <a href="https://doi.org/10.1109/Trustcom66490.2025.00079">
-      <img src="https://img.shields.io/badge/DOI-10.1109%2FTrustcom66490.2025.00079-0b6e4f.svg" alt="DOI">
-    </a>
-  </div>
-</div>
+{% endfor %}
 
 ## Preprints
+{% assign preprints = site.data.cv.publications | where: "status", "preprint" %}
+{% for publication in preprints %}
 <div class="pub-item">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2607.19829">DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection</a></div>
-  <div class="pub-authors"><strong>Weiwei Qi</strong>, Zefeng Wu, Zhilin Guo, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta">arXiv 2026</div>
+  <div class="pub-title"><a href="{{ publication.paper_url }}">{{ publication.title }}</a></div>
+  <div class="pub-authors">{{ publication.authors }}</div>
+  <div class="pub-meta">{{ publication.venue }}</div>
   <div class="pub-links">
-    <a href="https://arxiv.org/abs/2607.19829">
-      <img src="https://img.shields.io/badge/arXiv-2607.19829-b31b1b.svg" alt="arXiv">
-    </a>
+    {% for resource in publication.resources %}
+    <a href="{{ resource.url }}"><img src="{{ resource.badge }}" alt="{{ resource.label }}"></a>
+    {% endfor %}
   </div>
 </div>
-
-<div class="pub-item">
-  <div class="pub-title"><a href="https://arxiv.org/abs/2605.30883">TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking</a></div>
-  <div class="pub-authors">Churui Zeng, <strong>Weiwei Qi</strong>, Kedong Xiu, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta">arXiv 2026</div>
-  <div class="pub-links">
-    <a href="https://arxiv.org/abs/2605.30883">
-      <img src="https://img.shields.io/badge/arXiv-2605.30883-b31b1b.svg" alt="arXiv">
-    </a>
-    <a href="https://github.com/ZJU-LLM-Safety/TRACE">
-      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
-    </a>
-  </div>
-</div>
+{% endfor %}
 
 <span class='anchor' id='education'></span>
 # 🎓 Education
-- **Zhejiang University**: PhD in Cyberspace Security (ongoing, Year 2).
-- **Harbin Institute of Technology**: BEng in Computer Science and Technology.
+{% for item in cv.education %}
+- **{{ item.institution }}**: {{ item.degree }} ({{ item.detail }}).
+{% endfor %}
 
 <span class='anchor' id='projects'></span>
 # 🛠️ Projects
-- **2026.04**: **Auto-Resubmit** is a practical open-source tool for lossless migration of LaTeX paper projects across conference templates such as ACL, NeurIPS, ICML, ICLR, CVPR, and AAAI, helping automate content extraction, template reassembly, compilation, and packaging for paper resubmission.
-  <a href="https://github.com/LilanOvO/Auto-Resubmit">
+{% for project in cv.projects %}
+- **{{ project.period }}**: **{{ project.title }}** is {{ project.homepage_detail }}
+  <a href="{{ project.url }}">
     <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
   </a>
-  <a href="https://github.com/LilanOvO/Auto-Resubmit">
-    <img src="https://img.shields.io/github/stars/LilanOvO/Auto-Resubmit?style=social" alt="GitHub stars">
+  {% if project.stars_url %}
+  <a href="{{ project.stars_url }}">
+    <img src="https://img.shields.io/github/stars/{{ project.stars_url | remove: 'https://github.com/' }}?style=social" alt="GitHub stars">
   </a>
-- **2025.06**: **DeepSeek-R1-Safe** is a safety-enhanced reasoning LLM jointly developed with Huawei on Ascend and MindSpeed-LLM, where I contributed to 1024-GPU large-scale training, safety data construction, safety-oriented supervised fine-tuning, and scalable deployment. The project emphasizes multidimensional safety corpus design, safety core reasoning pre-alignment, dynamic efficiency compensation during SFT, and fine-grained safety RL for jointly optimizing safety, alignment, and general reasoning capability.
-  <a href="https://github.com/ZJUAISafety/DeepSeek-R1-Safe">
-    <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
-  </a>
-  <a href="https://github.com/ZJUAISafety/DeepSeek-R1-Safe">
-    <img src="https://img.shields.io/github/stars/ZJUAISafety/DeepSeek-R1-Safe?style=social" alt="GitHub stars">
-  </a>
+  {% endif %}
+{% endfor %}
 
 <span class='anchor' id='awards'></span>
 # 🏆 Awards
-- **2025.10**: Outstanding Graduate Student (Academic Innovation Award).
-- **2023.05**: Outstanding Prize, 2nd National College Students Olympic Mathematics Competition (Summer).
-- **2023.03**: Second Prize, National College Students Mathematics Competition Finals.
-- **2021.11**: First Prize, 13th National College Students Mathematics Competition.
-- **2021.11**: First Prize (Heilongjiang), National College Students Mathematical Contest in Modeling.
-- **2021.02** and **2022.01**: Honorable Mention, MCM/ICM.
+{% for honor in cv.honors %}
+- **{{ honor.year }}**: {{ honor.title }}.
+{% endfor %}

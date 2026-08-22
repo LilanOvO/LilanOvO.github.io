@@ -1,0 +1,133 @@
+basics:
+  name: "Weiwei Qi"
+  name_zh: "齐巍巍"
+  headline: "Ph.D. Student in Cyberspace Security"
+  affiliation: "Zhejiang University"
+  location: "Hangzhou, China"
+  email: "weiweiqi@zju.edu.cn"
+  github: "https://github.com/LilanOvO"
+  scholar: "https://scholar.google.com/citations?user=KacN-IMAAAAJ&hl=en"
+  summary: "I study how to make large language models safer and more reliable, with a focus on safety alignment, jailbreak red-teaming, and efficient post-training for LLMs and agents."
+  updated: "August 2026"
+
+interests:
+  - "LLM Safety"
+  - "Safety Alignment"
+  - "Agent Safety"
+  - "Jailbreak Red-Teaming"
+  - "Reinforcement Learning"
+
+education:
+  - degree: "Ph.D. in Cyberspace Security"
+    institution: "Zhejiang University"
+    detail: "In progress, Year 2"
+  - degree: "B.Eng. in Computer Science and Technology"
+    institution: "Harbin Institute of Technology"
+    detail: "School of Computer Science and Technology"
+
+research_experience:
+  - title: "Large Language Model Safety Research"
+    organization: "Zhejiang University"
+    detail: "Research on safety mechanisms, jailbreak attacks and defenses, and safety-preserving post-training for large language models."
+  - title: "DeepSeek-R1-Safe"
+    organization: "Zhejiang University and Huawei"
+    detail: "Contributed to 1024-GPU training, safety-data construction, safety-oriented supervised fine-tuning, and scalable deployment for a safety-enhanced reasoning LLM."
+
+publications:
+  - status: "accepted"
+    title: "DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment"
+    paper_url: "https://arxiv.org/abs/2607.15081"
+    authors: 'Zefeng Wu*, <strong>Weiwei Qi*</strong>, Jielong Chen, Tianhang Zheng, Di Hong, Chaochao Lu, Liang He, Zhan Qin, Kui Ren'
+    venue: "EMNLP 2026 Main (CCF-B/THU-A)"
+    resources:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2607.15081"
+        badge: "https://img.shields.io/badge/arXiv-2607.15081-b31b1b.svg"
+      - label: "Code"
+        url: "https://github.com/ZJU-LLM-Safety/DataShield"
+        badge: "https://img.shields.io/badge/Code-GitHub-black.svg?logo=github"
+  - status: "accepted"
+    title: "Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models"
+    paper_url: "https://arxiv.org/abs/2604.08297v1"
+    authors: '<strong>Weiwei Qi*</strong>, Zefeng Wu*, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren'
+    venue: "ACL 2026 Findings (CCF-A)"
+    resources:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2604.08297v1"
+        badge: "https://img.shields.io/badge/arXiv-2604.08297-b31b1b.svg"
+      - label: "Code"
+        url: "https://github.com/ZJU-LLM-Safety/SafeWeights-ACL"
+        badge: "https://img.shields.io/badge/Code-GitHub-black.svg?logo=github"
+  - status: "accepted"
+    title: "MAJIC: Markovian Adaptive Jailbreaking via Iterative Composition of Diverse Innovative Strategies"
+    paper_url: "https://arxiv.org/abs/2508.13048"
+    authors: '<strong>Weiwei Qi</strong>, Shuo Shao, Wei Gu, Tianhang Zheng, Puning Zhao, Zhan Qin, Kui Ren'
+    venue: "AAAI 2026 (CCF-A)"
+    resources:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2508.13048"
+        badge: "https://img.shields.io/badge/arXiv-2508.13048-b31b1b.svg"
+      - label: "Code"
+        url: "https://github.com/ZJU-LLM-Safety/MAJIC-AAAI2026"
+        badge: "https://img.shields.io/badge/Code-GitHub-black.svg?logo=github"
+      - label: "Poster"
+        url: "https://underline.io/lecture/142666-majic-markovian-adaptive-jailbreaking-via-iterative-composition-of-diverse-innovative-strategies"
+        badge: "https://img.shields.io/badge/Poster-Underline-0ea5e9.svg"
+  - status: "accepted"
+    title: "CVshield: Interpretable Black-Box Adversarial Defense for LLMs via CoT Guided Semantic Verification"
+    paper_url: "https://doi.org/10.1109/Trustcom66490.2025.00079"
+    authors: 'Wenjing Hu, <strong>Weiwei Qi</strong>, Yanlu Li, Xinzhe Huang'
+    venue: "IEEE TrustCom 2025"
+    resources:
+      - label: "DOI"
+        url: "https://doi.org/10.1109/Trustcom66490.2025.00079"
+        badge: "https://img.shields.io/badge/DOI-10.1109%2FTrustcom66490.2025.00079-0b6e4f.svg"
+  - status: "preprint"
+    title: "DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection"
+    paper_url: "https://arxiv.org/abs/2607.19829"
+    authors: '<strong>Weiwei Qi</strong>, Zefeng Wu, Zhilin Guo, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren'
+    venue: "arXiv 2026"
+    resources:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2607.19829"
+        badge: "https://img.shields.io/badge/arXiv-2607.19829-b31b1b.svg"
+  - status: "preprint"
+    title: "TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking"
+    paper_url: "https://arxiv.org/abs/2605.30883"
+    authors: 'Churui Zeng, <strong>Weiwei Qi</strong>, Kedong Xiu, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren'
+    venue: "arXiv 2026"
+    resources:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2605.30883"
+        badge: "https://img.shields.io/badge/arXiv-2605.30883-b31b1b.svg"
+      - label: "Code"
+        url: "https://github.com/ZJU-LLM-Safety/TRACE"
+        badge: "https://img.shields.io/badge/Code-GitHub-black.svg?logo=github"
+
+projects:
+  - title: "Auto-Resubmit"
+    period: "2026.04"
+    detail: "An open-source tool for lossless migration of LaTeX paper projects across major conference templates, automating content extraction, template reassembly, compilation, and submission packaging."
+    homepage_detail: "a practical open-source tool for lossless migration of LaTeX paper projects across conference templates such as ACL, NeurIPS, ICML, ICLR, CVPR, and AAAI, helping automate content extraction, template reassembly, compilation, and packaging for paper resubmission."
+    url: "https://github.com/LilanOvO/Auto-Resubmit"
+    stars_url: "https://github.com/LilanOvO/Auto-Resubmit"
+  - title: "DeepSeek-R1-Safe"
+    period: "2025.06"
+    detail: "A safety-enhanced reasoning LLM project focused on safety data, pre-alignment, safety-oriented SFT, and fine-grained safety reinforcement learning."
+    homepage_detail: "a safety-enhanced reasoning LLM jointly developed with Huawei on Ascend and MindSpeed-LLM, where I contributed to 1024-GPU large-scale training, safety data construction, safety-oriented supervised fine-tuning, and scalable deployment. The project emphasizes multidimensional safety corpus design, safety core reasoning pre-alignment, dynamic efficiency compensation during SFT, and fine-grained safety RL for jointly optimizing safety, alignment, and general reasoning capability."
+    url: "https://github.com/ZJUAISafety/DeepSeek-R1-Safe"
+    stars_url: "https://github.com/ZJUAISafety/DeepSeek-R1-Safe"
+
+honors:
+  - year: "2025.10"
+    title: "Outstanding Graduate Student (Academic Innovation Award)"
+  - year: "2023.05"
+    title: "Outstanding Prize, 2nd National College Students Olympic Mathematics Competition (Summer)"
+  - year: "2023.03"
+    title: "Second Prize, National College Students Mathematics Competition Finals"
+  - year: "2021.11"
+    title: "First Prize, 13th National College Students Mathematics Competition"
+  - year: "2021.11"
+    title: "First Prize (Heilongjiang), National College Students Mathematical Contest in Modeling"
+  - year: "2021.02 and 2022.01"
+    title: "Honorable Mention, MCM/ICM"
