@@ -46,7 +46,7 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
   <div class="pub-kicker">Latest publication</div>
   <div class="pub-title"><a href="https://arxiv.org/abs/2607.15081">DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment</a></div>
   <div class="pub-authors">Zefeng Wu*, <strong>Weiwei Qi*</strong>, Jielong Chen, Tianhang Zheng, Di Hong, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta"><span class="pub-status">EMNLP 2026</span> THU-A | Co-first Author</div>
+  <div class="pub-meta"><span class="pub-status">EMNLP 2026 Main</span> (CCF-B/THU-A) | Co-first Author</div>
   <div class="pub-links">
     <a href="https://arxiv.org/abs/2607.15081">
       <img src="https://img.shields.io/badge/arXiv-2607.15081-b31b1b.svg" alt="arXiv">
