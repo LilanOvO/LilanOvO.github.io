@@ -13,7 +13,6 @@ author_profile: false
     <img class="resume-photo" src="/{{ resume.photo }}" alt="{{ cv.basics.name }}">
     <h1>个人简历<span>——{{ cv.basics.name_zh }}</span></h1>
     <div class="resume-contact">
-      <span><i class="fas fa-phone" aria-hidden="true"></i> {{ resume.phone }}</span>
       <a href="mailto:{{ cv.basics.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> {{ cv.basics.email }}</a>
       <a href="{{ cv.basics.github }}"><i class="fab fa-github" aria-hidden="true"></i> LilanOvO</a>
     </div>

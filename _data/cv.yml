@@ -133,8 +133,7 @@ honors:
     title: "Honorable Mention, MCM/ICM"
 
 online_resume:
-  phone: "15090236598"
-  photo: "images/cv-headshot.png"
+  photo: "images/cv-headshot.jpg"
   education:
     - label: "本科"
       content: "哈尔滨工业大学（校本部） | 计算学部 | 计算机科学与技术专业 | 学分绩 88.7 / 100"
