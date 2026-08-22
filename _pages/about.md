@@ -33,11 +33,54 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- 🎉 **2026.08.21**: **DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment** was accepted to EMNLP 2026. I am a co-first author.
+- **2026.07.22**: Our paper **DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection** is available on arXiv.
+- **2026.05.29**: Our paper **TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking** is available on arXiv.
 - 🎉 **2026.04.06**: **Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models** was accepted to ACL 2026 Findings.
 - 🥳 **2025.11.08**: **MAJIC: Markovian Adaptive Jailbreaking via Iterative Composition of Diverse Innovative Strategies** was accepted to AAAI 2026.
 
 <span class='anchor' id='publications'></span>
 # 📝 Publications
+<div class="pub-item pub-item--featured">
+  <div class="pub-kicker">Latest publication</div>
+  <div class="pub-title"><a href="https://arxiv.org/abs/2607.15081">DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment</a></div>
+  <div class="pub-authors">Zefeng Wu*, <strong>Weiwei Qi*</strong>, Jielong Chen, Tianhang Zheng, Di Hong, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
+  <div class="pub-meta"><span class="pub-status">EMNLP 2026</span> CCF-B | Co-first Author</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2607.15081">
+      <img src="https://img.shields.io/badge/arXiv-2607.15081-b31b1b.svg" alt="arXiv">
+    </a>
+    <a href="https://github.com/ZJU-LLM-Safety/DataShield">
+      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
+    </a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2607.19829">DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection</a></div>
+  <div class="pub-authors"><strong>Weiwei Qi</strong>, Zefeng Wu, Zhilin Guo, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
+  <div class="pub-meta">arXiv 2026 | First Author</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2607.19829">
+      <img src="https://img.shields.io/badge/arXiv-2607.19829-b31b1b.svg" alt="arXiv">
+    </a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2605.30883">TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking</a></div>
+  <div class="pub-authors">Churui Zeng, <strong>Weiwei Qi</strong>, Kedong Xiu, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren</div>
+  <div class="pub-meta">arXiv 2026 | Co-author</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2605.30883">
+      <img src="https://img.shields.io/badge/arXiv-2605.30883-b31b1b.svg" alt="arXiv">
+    </a>
+    <a href="https://github.com/ZJU-LLM-Safety/TRACE">
+      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
+    </a>
+  </div>
+</div>
+
 <div class="pub-item">
   <div class="pub-title"><a href="https://arxiv.org/abs/2604.08297v1">Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models</a></div>
   <div class="pub-authors"><strong>Weiwei Qi</strong>, Zefeng Wu, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren</div>
@@ -65,6 +108,17 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
     </a>
     <a href="https://underline.io/lecture/142666-majic-markovian-adaptive-jailbreaking-via-iterative-composition-of-diverse-innovative-strategies">
       <img src="https://img.shields.io/badge/Poster-Underline-0ea5e9.svg" alt="Poster">
+    </a>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-title"><a href="https://doi.org/10.1109/Trustcom66490.2025.00079">CVshield: Interpretable Black-Box Adversarial Defense for LLMs via CoT Guided Semantic Verification</a></div>
+  <div class="pub-authors">Wenjing Hu, <strong>Weiwei Qi</strong>, Yanlu Li, Xinzhe Huang</div>
+  <div class="pub-meta">IEEE TrustCom 2025 | Co-author</div>
+  <div class="pub-links">
+    <a href="https://doi.org/10.1109/Trustcom66490.2025.00079">
+      <img src="https://img.shields.io/badge/DOI-10.1109%2FTrustcom66490.2025.00079-0b6e4f.svg" alt="DOI">
     </a>
   </div>
 </div>

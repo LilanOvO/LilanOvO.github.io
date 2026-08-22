@@ -154,6 +154,22 @@ h1:before, .anchor:before {
     background: #fbfcff;
 }
 
+.pub-item--featured {
+    border-color: #b8d8c5;
+    border-left-color: #16804d;
+    background: #f7fcf8;
+    box-shadow: 0 3px 10px rgba(25, 104, 65, .08);
+}
+
+.pub-kicker {
+    margin-bottom: .35rem;
+    color: #16804d;
+    font-size: .78em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
 .pub-title {
     font-size: 1.1em;
     font-weight: 700;
@@ -171,9 +187,29 @@ h1:before, .anchor:before {
     font-weight: 700;
 }
 
+.pub-status {
+    display: inline-block;
+    margin-right: .35rem;
+    padding: .05rem .4rem;
+    border: 1px solid #a8cfb6;
+    border-radius: 3px;
+    background: #e9f6ed;
+    color: #136b40;
+    font-size: .84em;
+}
+
 .pub-links {
-    margin-top: .25rem;
+    margin-top: .45rem;
     font-size: 1em;
+
+    a {
+        display: inline-block;
+        margin-right: .3rem;
+    }
+
+    img {
+        vertical-align: middle;
+    }
 }
 
 .pub-link-icon {
