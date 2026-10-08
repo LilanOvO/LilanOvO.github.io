@@ -83,6 +83,18 @@ publications:
         url: "https://doi.org/10.1109/Trustcom66490.2025.00079"
         badge: "https://img.shields.io/badge/DOI-10.1109%2FTrustcom66490.2025.00079-0b6e4f.svg"
   - status: "preprint"
+    title: "ASCENT: First-Order Optimal Fine-Tuning with Recalibration for Safety–Utility Co-Enhancement"
+    paper_url: "https://arxiv.org/abs/2610.08061"
+    authors: '<strong>Weiwei Qi</strong>, Chongyu Wang, Tianhang Zheng, Zefeng Wu, Zhilin Guo, Xiaojun Jia, Zhongjie Ba, Kui Ren'
+    venue: "arXiv 2026"
+    resources:
+      - label: "arXiv"
+        url: "https://arxiv.org/abs/2610.08061"
+        badge: "https://img.shields.io/badge/arXiv-2610.08061-b31b1b.svg"
+      - label: "Code"
+        url: "https://github.com/ZJU-LLM-Safety/ASCENT"
+        badge: "https://img.shields.io/badge/Code-GitHub-black.svg?logo=github"
+  - status: "preprint"
     title: "DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection"
     paper_url: "https://arxiv.org/abs/2607.19829"
     authors: '<strong>Weiwei Qi</strong>, Zefeng Wu, Zhilin Guo, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren'

@@ -35,6 +35,7 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- **2026.10.06**: Our paper **ASCENT: First-Order Optimal Fine-Tuning with Recalibration for Safety–Utility Co-Enhancement** is available on arXiv.
 - 🎉 **2026.08.21**: **DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment** was accepted to EMNLP 2026.
 - **2026.07.22**: Our paper **DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection** is available on arXiv.
 - **2026.05.29**: Our paper **TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking** is available on arXiv.
