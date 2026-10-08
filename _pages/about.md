@@ -28,11 +28,6 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
   <span class="research-tag">Jailbreak Red-Teaming</span>
 </div>
 
-<div class="section-note">
-  <a href="/cv/">CV</a> |
-  <a href="https://scholar.google.com/citations?user=KacN-IMAAAAJ&hl=en">Google Scholar</a>
-</div>
-
 <span class='anchor' id='news'></span>
 # 🔥 News
 - **2026.10.06**: Our paper **ASCENT: First-Order Optimal Fine-Tuning with Recalibration for Safety–Utility Co-Enhancement** is available on arXiv.
