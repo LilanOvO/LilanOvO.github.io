@@ -1,6 +1,0 @@
-{
-  "name": "lilanovo-research-notes",
-  "private": true,
-  "version": "1.0.0",
-  "scripts": {"build": "node scripts/build.mjs", "check": "node --check static/js/site.js && node --check static/js/attention.js && python3 scripts/check_links.py"}
-}

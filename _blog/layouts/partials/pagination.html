@@ -1,6 +1,0 @@
-{{ if gt .TotalPages 1 }}
-<nav class="pagination" aria-label="Article pagination">
-  {{ if .HasPrev }}<a class="pagination-prev" href="{{ .Prev.URL }}" rel="prev" aria-label="Previous page">« Prev</a>{{ end }}
-  {{ if .HasNext }}<a class="pagination-next" href="{{ .Next.URL }}" rel="next" aria-label="Next page">Next »</a>{{ end }}
-</nav>
-{{ end }}
