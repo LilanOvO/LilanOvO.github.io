@@ -1,0 +1,1 @@
+{{ define "main" }}<div class="index-page"><a class="back-link" href="{{ "tags/" | relURL }}">← All topics</a><div class="eyebrow">EXPLORE A THREAD</div><h1>{{ .Title }}.</h1><p class="index-deck">A collection of ideas, connected by a common question.</p>{{ range .Pages }}{{ partial "post-row.html" . }}{{ end }}</div>{{ end }}

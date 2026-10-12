@@ -1,0 +1,35 @@
+{{- $tags := .GetTerms "tags" -}}
+{{- $posts := (where site.RegularPages "Section" "posts").ByWeight -}}
+{{- $previous := false -}}
+{{- $next := false -}}
+{{- range $index, $post := $posts -}}
+  {{- if eq $post.RelPermalink $.RelPermalink -}}
+    {{- if gt $index 0 -}}{{- $previous = index $posts (sub $index 1) -}}{{- end -}}
+    {{- if lt (add $index 1) (len $posts) -}}{{- $next = index $posts (add $index 1) -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{ if or $tags $previous $next }}
+<footer class="article-footer">
+  {{ with $tags }}
+  <ul class="article-tags" aria-label="Article tags" role="list">
+    {{ range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}
+  </ul>
+  {{ end }}
+  {{ if or $previous $next }}
+  <nav class="article-navigation" aria-label="Article navigation">
+    {{ with $previous }}
+    <a class="article-nav-prev" href="{{ .RelPermalink }}" rel="prev">
+      <span class="article-nav-label"><span aria-hidden="true">«</span> Previous</span>
+      <span class="article-nav-title">{{ .Title }}</span>
+    </a>
+    {{ end }}
+    {{ with $next }}
+    <a class="article-nav-next" href="{{ .RelPermalink }}" rel="next">
+      <span class="article-nav-label">Next <span aria-hidden="true">»</span></span>
+      <span class="article-nav-title">{{ .Title }}</span>
+    </a>
+    {{ end }}
+  </nav>
+  {{ end }}
+</footer>
+{{ end }}

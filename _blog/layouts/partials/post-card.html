@@ -1,0 +1,8 @@
+<article class="post-card{{ if not .Params.cover }} post-card--text-only{{ end }}">
+  <div class="card-copy">
+    <h2><a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="card-description">{{ .Params.cardDescription | default .Description }}</p>
+    <div class="card-metadata"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time><span aria-hidden="true">·</span><span>{{ .Params.readingTime | default "3 min" }} read</span><span class="article-badge">{{ .Params.contentType }}</span></div>
+  </div>
+  {{ with .Params.cover }}<div class="card-figure"><img src="{{ . | relURL }}" alt="{{ $.Params.coverAlt }}" width="440" height="250" {{ if ne $.Weight 1 }}loading="lazy"{{ end }}></div>{{ end }}
+</article>

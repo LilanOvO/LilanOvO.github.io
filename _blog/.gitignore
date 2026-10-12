@@ -1,0 +1,7 @@
+node_modules/
+.hugo_build.lock
+resources/
+.openai/*.tar*
+.openai/local*
+
+.cache/

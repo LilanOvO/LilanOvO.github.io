@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ if eq .Section "posts" }}
+<article class="article-page">
+  <header class="article-header">
+    <h1>{{ .Title }}</h1>
+    <p class="article-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      <span aria-hidden="true">·</span>
+      <span>{{ .Params.readingTime | default (printf "%d min" .ReadingTime) }} read</span>
+      <span aria-hidden="true">·</span>
+      <span>{{ .Params.author | default site.Params.author }}</span>
+    </p>
+    {{ if .Params.sample }}<p class="article-notice">Example article prepared for this site preview. Awaiting author review.</p>{{ end }}
+  </header>
+  {{ if .Fragments.Headings }}
+  <details class="article-toc">
+    <summary>Table of Contents</summary>
+    {{ .TableOfContents }}
+  </details>
+  {{ end }}
+  <div class="article-body">{{ .Content }}</div>
+  {{ partial "article-footer.html" . }}
+</article>
+{{ else if eq .Section "archive" }}
+<div class="index-page"><div class="eyebrow">THE FULL NOTEBOOK</div><h1>All writing.</h1><p class="index-deck">Technical essays, visual explanations, and questions in progress.</p><div class="archive-year">2026 <span>{{ len (where site.RegularPages "Section" "posts") }} notes</span></div>{{ range (where site.RegularPages "Section" "posts").ByWeight }}{{ partial "post-row.html" . }}{{ end }}</div>
+{{ else }}<article class="about-page"><div class="eyebrow">BEHIND THE NOTEBOOK</div><h1>{{ .Title }}</h1><div class="article-body">{{ .Content }}</div></article>{{ end }}
+{{ end }}

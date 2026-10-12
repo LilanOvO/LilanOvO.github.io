@@ -28,6 +28,12 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
   <span class="research-tag">Jailbreak Red-Teaming</span>
 </div>
 
+<span class='anchor' id='blog'></span>
+# ☕ Blog
+I share research notes on LLM safety, post-training, and AI agents on [my blog ↗](/blog/).
+
+Latest: [LLM Safety Under Recursive Self-Improvement](/blog/posts/llm-rsi-safety/) · October 12, 2026
+
 <span class='anchor' id='news'></span>
 # 🔥 News
 - **2026.10.06**: Our paper **ASCENT: First-Order Optimal Fine-Tuning with Recalibration for Safety–Utility Co-Enhancement** is available on arXiv.

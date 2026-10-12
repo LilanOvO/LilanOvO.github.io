@@ -1,0 +1,31 @@
+{{- $pageNumber := 1 -}}
+{{- $canonical := .Permalink -}}
+{{- if .IsHome -}}
+  {{- $pager := .Paginate ((where site.RegularPages "Section" "posts").ByWeight) -}}
+  {{- $pageNumber = $pager.PageNumber -}}
+  {{- if gt $pageNumber 1 -}}{{- $canonical = ($pager.URL | absURL) -}}{{- end -}}
+{{- end -}}
+{{- with site.Params.canonicalBaseURL -}}{{- $canonical = replace $canonical site.BaseURL . -}}{{- end -}}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ if gt $pageNumber 1 }} · Page {{ $pageNumber }}{{ end }}{{ else }}{{ .Title }} · {{ site.Params.brand }}{{ end }}</title>
+<meta name="description" content="{{ .Description | default site.Params.description }}">
+<link rel="canonical" href="{{ $canonical }}">
+<meta property="og:title" content="{{ .Title }}"><meta property="og:description" content="{{ .Description | default site.Params.description }}"><meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<link rel="icon" href="{{ "images/favicon.svg?v=smiling-face" | relURL }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+{{ if .HasShortcode "attention" }}<link rel="stylesheet" href="{{ "css/attention.css" | relURL }}"><script defer src="{{ "js/attention.js" | relURL }}"></script>{{ end }}
+{{ if and .IsPage (eq .Section "posts") }}<link rel="stylesheet" href="{{ "css/article.css" | relURL }}">{{ end }}
+{{ if .IsPage }}<link rel="stylesheet" href="{{ "math/katex.min.css" | relURL }}"><script defer src="{{ "math/katex.min.js" | relURL }}"></script><script defer src="{{ "math/auto-render.min.js" | relURL }}"></script>{{ end }}
+<script>try{if(localStorage.getItem('lilanovo-theme')==='dark')document.documentElement.dataset.theme='dark'}catch(e){}</script>
+<script defer src="{{ "js/site.js" | relURL }}"></script>
+</head>
+<body{{ if and .IsPage (eq .Section "posts") }} class="reading-page"{{ end }} data-search-index="{{ "index.json" | relURL }}">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><div class="header-inner"><div class="brand-group"><a class="brand" href="{{ "" | relURL }}">{{ site.Params.brand }}</a><button class="icon-button theme-toggle" aria-label="Switch to dark mode" title="Toggle theme">{{ partial "ui-icon.html" "moon" }}</button><span class="brand-divider" aria-hidden="true">|</span></div><nav aria-label="Main navigation"><a href="{{ "" | relURL }}" {{ if .IsHome }}aria-current="page"{{ end }}>Posts</a><a href="{{ "archive/" | relURL }}" {{ if eq .Section "archive" }}aria-current="page"{{ end }}>Archive</a><button class="nav-search search-open" type="button">Search</button><a href="{{ "tags/" | relURL }}" {{ if eq .Section "tags" }}aria-current="page"{{ end }}>Tags</a><a href="{{ "about/" | relURL }}" {{ if eq .Section "about" }}aria-current="page"{{ end }}>About</a></nav></div></header>
+<main id="main">{{ block "main" . }}{{ end }}</main>
+<footer class="site-footer"><div><a class="footer-brand" href="{{ "" | relURL }}">{{ site.Params.brand }}<span> / </span>AI Research Notes</a><p>Thinking in public. Learning in depth.</p></div><div class="footer-right"><div><a href="{{ site.Params.github }}">GitHub ↗</a><a href="{{ site.Params.homepage }}">Homepage ↗</a></div><p class="footer-credits">© {{ now.Year }} Weiwei Qi <span>· Built with <a href="https://gohugo.io/">Hugo</a></span> <span>· Inspired by <a href="https://lilianweng.github.io/">Lilian Weng</a></span></p></div></footer>
+<dialog class="search-dialog" aria-labelledby="search-title"><div class="search-heading"><h2 id="search-title">Search the notebook</h2><button class="icon-button search-close" aria-label="Close search">✕</button></div><label class="search-field">{{ partial "icon.html" "search" }}<input id="search-input" type="search" aria-label="Search titles, topics, or content" placeholder="Search titles, topics, or ideas…" autocomplete="off"></label><div id="search-results" aria-live="polite"><p class="muted">Type a keyword to search all articles.</p></div><p class="search-hint">ESC to close <span>Full-text search</span></p></dialog>
+</body></html>
