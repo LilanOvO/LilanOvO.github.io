@@ -155,6 +155,8 @@ projects:
     stars_url: "https://github.com/ZJUAISafety/DeepSeek-R1-Safe"
 
 honors:
+  - year: "2026.11"
+    title: "National Second Prize (Team), 23rd China Post-Graduate Mathematical Contest in Modeling (Huawei Cup)"
   - year: "2026.10"
     title: "Outstanding Graduate Student (优秀研究生) and Five-A Graduate Student (五好研究生), Zhejiang University"
   - year: "2026.10"
@@ -195,6 +197,8 @@ online_resume:
     meta: "项目成员，2025.06"
     detail: "根据千卡集群大规模训练背景，完成 1024 卡昇腾服务器训练环境中固件、驱动、CANN toolkit 及 Conda 环境的自动化部署与调试。围绕 LLM 安全对齐，设计安全数据筛选方案、构建专用安全数据集，并参与模型 SFT 训练；在 MMLU、GSM8K、CEVAL 及自建安全 Benchmark 上，相比 DeepSeek-R1，安全能力显著提升，通用任务性能下降均未超过 1%。"
   competitions:
+    - title: "“华为杯”第二十三届中国研究生数学建模竞赛全国二等奖"
+      meta: "团队竞赛，2026.11"
     - title: "哈工大校级大创年度项目二等奖"
       meta: "项目组长，2020.08"
     - title: "第十二届全国大学生数学竞赛三等奖"
