@@ -40,6 +40,9 @@ publications:
     authors: 'Zefeng Wu*, <strong>Weiwei Qi*</strong>, Jielong Chen, Tianhang Zheng, Di Hong, Chaochao Lu, Liang He, Zhan Qin, Kui Ren'
     venue: "EMNLP 2026 Main (CCF-B/THU-A)"
     resources:
+      - label: "ACL Anthology"
+        url: "https://aclanthology.org/2026.emnlp-main.1941/"
+        badge: "https://img.shields.io/badge/ACL-Anthology-24577a.svg"
       - label: "arXiv"
         url: "https://arxiv.org/abs/2607.15081"
         badge: "https://img.shields.io/badge/arXiv-2607.15081-b31b1b.svg"
@@ -52,6 +55,9 @@ publications:
     authors: '<strong>Weiwei Qi*</strong>, Zefeng Wu*, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren'
     venue: "ACL 2026 Findings (CCF-A)"
     resources:
+      - label: "ACL Anthology"
+        url: "https://aclanthology.org/2026.findings-acl.1616/"
+        badge: "https://img.shields.io/badge/ACL-Anthology-24577a.svg"
       - label: "arXiv"
         url: "https://arxiv.org/abs/2604.08297v1"
         badge: "https://img.shields.io/badge/arXiv-2604.08297-b31b1b.svg"
@@ -64,6 +70,9 @@ publications:
     authors: '<strong>Weiwei Qi</strong>, Shuo Shao, Wei Gu, Tianhang Zheng, Puning Zhao, Zhan Qin, Kui Ren'
     venue: "AAAI 2026 (CCF-A)"
     resources:
+      - label: "AAAI Proceedings"
+        url: "https://doi.org/10.1609/aaai.v40i39.40554"
+        badge: "https://img.shields.io/badge/AAAI-Proceedings-24577a.svg"
       - label: "arXiv"
         url: "https://arxiv.org/abs/2508.13048"
         badge: "https://img.shields.io/badge/arXiv-2508.13048-b31b1b.svg"
@@ -213,3 +222,5 @@ online_resume:
     - "2021.12 优秀学生（实学实干奖）"
     - "2020.06 2019 年度人民奖学金"
     - "2025.10 优秀研究生（学术创新奖）"
+    - "2026.10 浙江大学“优秀研究生”和“五好研究生”荣誉称号"
+    - "2026.10 俞浩梦想奖学金"
