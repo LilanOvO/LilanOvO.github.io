@@ -121,7 +121,7 @@ publications:
   - status: "preprint"
     title: "TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking"
     paper_url: "https://arxiv.org/abs/2605.30883"
-    authors: 'Churui Zeng, <strong>Weiwei Qi</strong>, Kedong Xiu, Tianhang Zheng, Chaochao Lu, Liang He, Zhan Qin, Kui Ren'
+    authors: 'Churui Zeng*, Kedong Xiu*, <strong>Weiwei Qi</strong>, Yuqi Hao, Chaochao Lu, Liang He, Zhan Qin, Tianhang Zheng†'
     venue: "arXiv 2026"
     resources:
       - label: "arXiv"
